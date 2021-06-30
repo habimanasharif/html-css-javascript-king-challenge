@@ -1,0 +1,78 @@
+body{
+    background: #faead1;
+    
+}
+ul{
+    padding-inline-start: 0px !important;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    
+}
+header{
+    padding: 25px 50px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+.nav-logo{
+    font-size: 1.3em;
+ color:#faead1 ;
+}
+.nav-logo::after{
+    content: '';
+    width: 25px;
+    height: 35px;
+    background: linear-gradient(#1f1e40,#1f1e40);
+    position: absolute;
+    top:35px;
+    left: 70px;
+    z-index: 1;
+    transform:rotate(0deg);
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    font-size: 1.3em;  
+    flex-basis: 1;
+}
+.nav-link{
+    font-size: 1.3em;
+}
+
+.nav-link{
+    flex-basis: 1;
+   
+}
+.nav-link ul li{
+    margin: 10px 5px;
+    font-size: 1.0em;
+    font-family: 'Roboto', sans-serif;
+    font-size: bold;
+    display: inline;
+    
+    
+}
+li.active{
+text-decoration: underline;
+}
+
+.nav-auth{
+    flex-basis: 1;
+}
+.nav-auth button{
+   border: none; 
+   width: 100px;
+   height: 40px;
+   margin: 0 10px;
+   font-size:.9em;
+   font-weight: bold;
+   font-family: 'Roboto', sans-serif;
+   background: none;
+}
+.nav-auth button.signup{
+    background: #1f1e40;
+    color: #fff;
+}
+article{
+    display: flex;
+    flex-direction: row;
+}
